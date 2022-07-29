@@ -1,0 +1,21 @@
+.hide {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ending {
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #007bff;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
