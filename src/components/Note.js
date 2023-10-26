@@ -61,22 +61,22 @@ function Note() {
             <div className="container">
               <div className={lineClass}>
                 <div className="alert alert-success" role="alert">
-                  <h4 className="h4 text-primary">Сообщение:</h4>
+                  <h4 className="h4 text-primary">Note:</h4>
                   <div>{noteText}</div>
                 </div>
-                <div className="text-right"><button className="btn btn-primary" onClick={searchNote}>Смотреть еще одно сообщение</button></div>
+                <div className="text-right"><button className="btn btn-primary" onClick={searchNote}>View another message</button></div>
               </div>
               <div className={errorClass}>
-                <p>Произошла ошибка. Такой хеш не найден</p>
+                <p>An error has occurred. No such hash found</p>
               </div>
               <div className={formClass}>
                 <form action="" onSubmit={getNote}>
                   <div className="form-group">
-                    <label htmlFor="url" className="h4 text-primary">Введите хеш заметки</label>
+                    <label htmlFor="url" className="h4 text-primary">Enter note hash</label>
                     <input type="text" name="url" id="url" className="form-control" />
                   </div>
                   <div className="form-group text-right">
-                    <button type="submit" className="btn btn-primary">Искать сообщение</button>
+                    <button type="submit" className="btn btn-primary">Search message</button>
                   </div>
                 </form>
               </div>

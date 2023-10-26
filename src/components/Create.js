@@ -41,16 +41,16 @@ function Create() {
             <div className="container">
               <form onSubmit={loadDataFromForm} className={formClass}>
                 <div className="form-group">
-                  <label htmlFor="note" className="h4 text-primary">Введите заметку</label>
+                  <label htmlFor="note" className="h4 text-primary">Enter a note</label>
                   <textarea className="form-control" name="note" id="note" defaultValue="Test"></textarea>
                 </div>
                 <div className="form-group text-right">
-                  <button type="submit" className="btn btn-primary">Создать</button>
+                  <button type="submit" className="btn btn-primary">Create</button>
                 </div>
               </form>
               <div className={lineClass}>
                 <div className="alert alert-primary" role="alert">{url}</div>
-                <div className="text-right"><button className="btn btn-primary" onClick={() => window.location.reload()}>Создать новую заметку</button></div>
+                <div className="text-right"><button className="btn btn-primary" onClick={() => window.location.reload()}>Create a new note</button></div>
               </div>
             </div>
           </div>

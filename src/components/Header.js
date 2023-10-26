@@ -9,10 +9,10 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className='navbar-nav'>
-              <li className="nav-item"><NavLink className="nav-link" to="/">Главная</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/note">Сообщения</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/create">Создать</NavLink></li>
-              <li className="nav-item"><NavLink className="nav-link" to="/about">О нас</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/">MAIN</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/note">NOTE</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/create">CREATE</NavLink></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/about">ABOUT US</NavLink></li>
             </ul>
           </div>
         </div>

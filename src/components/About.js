@@ -2,9 +2,9 @@ function About() {
     return (
       <div className="wrapper">
         <div className="text-center ending" style={{marginTop: "25px"}}>
-          <p>Это приложение создано в целях зашифрованной переписки <br /> с кем-то через точные ссылки / хеши.</p>
-          <p>Это финальный проект с курса от ITgid ReactJS.</p>
-          <p>Выполнил финальный проект - Соколов Илья</p>
+          <p>This application is created for the purpose of encrypted correspondence <br /> with someone through exact links/hashes.</p>
+          <p>This is the final project from the ITgid ReactJS course.</p>
+          <p>Completed the final project - Ilya Sokolov</p>
         </div>
       </div>
       
